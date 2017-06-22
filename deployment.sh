@@ -1,4 +1,4 @@
 #!/bin/bash
 cd /var/www/html
-sudo git pull origin develop
+sudo git pull origin master
 sudo service apache2 restart
